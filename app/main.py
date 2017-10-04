@@ -4,6 +4,6 @@
 def main(argv):
   for i, v in enumerate(argv):
     if v!="":
-      print("Hello "str(v)+"!")
+      print("Hello "+str(v)+"!")
     else:
       print("Hello!")
